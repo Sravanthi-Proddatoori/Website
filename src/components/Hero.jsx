@@ -60,7 +60,7 @@ export default function Hero() {
           transition={{ duration: 0.7, ease: 'easeOut' }}
           className="min-w-0"
         >
-          <p className="mb-4 font-mono text-sm text-cyan">$ whoami</p>
+          {/* <p className="mb-4 font-mono text-sm text-cyan">$ whoami</p> */}
           <h1 className="text-glow-amber font-display text-4xl font-semibold leading-[1.1] text-ink sm:text-5xl lg:text-6xl">
             {profile.name}
           </h1>

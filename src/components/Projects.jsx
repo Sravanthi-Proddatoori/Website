@@ -5,7 +5,7 @@ import { projects } from '../data/resumeData'
 export default function Projects() {
   return (
     <section id="projects" className="mx-auto max-w-6xl px-6 py-28">
-      <SectionHeading eyebrow="$ ls projects/" title="Projects" />
+      <SectionHeading title="Projects" />
       <div className="grid gap-6 sm:grid-cols-2">
         {projects.map((p, i) => (
           <motion.div

@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 
 const links = [
-  { id: 'about', label: 'about' },
-  { id: 'work', label: 'work' },
-  { id: 'projects', label: 'projects' },
-  { id: 'skills', label: 'skills' },
-  { id: 'contact', label: 'contact' },
+  { id: 'about', label: 'About' },
+  { id: 'work', label: 'Work' },
+  { id: 'projects', label: 'Projects' },
+  { id: 'skills', label: 'Skills' },
+  { id: 'contact', label: 'Contact' },
 ]
 
 export default function Nav() {
@@ -42,7 +42,7 @@ export default function Nav() {
           rel="noreferrer"
           className="rounded-full border border-amber/40 px-4 py-1.5 font-mono text-sm text-amber transition-colors hover:bg-amber/10"
         >
-          resume
+          Resume
         </a>
       </nav>
     </header>

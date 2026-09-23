@@ -5,7 +5,7 @@ import { education } from '../data/resumeData'
 export default function Education() {
   return (
     <section id="education" className="mx-auto max-w-6xl px-6 pb-28">
-      <SectionHeading eyebrow="$ cat education.log" title="Education" />
+      <SectionHeading title="Education" />
       <div className="grid gap-5 sm:grid-cols-2">
         {education.map((e, i) => (
           <motion.div

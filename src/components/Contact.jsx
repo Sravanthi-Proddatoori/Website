@@ -24,7 +24,7 @@ export default function Contact() {
         transition={{ duration: 0.6 }}
         className="glass relative overflow-hidden rounded-3xl px-8 py-16 text-center sm:px-16"
       >
-        <p className="font-mono text-sm text-cyan">$ contact --open</p>
+        {/* <p className="font-mono text-sm text-cyan">$ contact --open</p> */}
         <h2 className="mt-3 font-display text-3xl font-semibold text-ink sm:text-4xl">
           Let's build something that has to work.
         </h2>
@@ -39,12 +39,6 @@ export default function Contact() {
           >
             {copied ? 'copied!' : profile.email}
           </button>
-          <a
-            href={`tel:${profile.phone.replace(/[^+\d]/g, '')}`}
-            className="rounded-full border border-ink/20 px-6 py-3 font-mono text-sm text-ink transition-colors hover:border-cyan hover:text-cyan"
-          >
-            {profile.phone}
-          </a>
         </div>
 
         <div className="mt-8 flex justify-center gap-6 font-mono text-sm text-muted">

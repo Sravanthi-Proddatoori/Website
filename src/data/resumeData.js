@@ -3,9 +3,8 @@ export const profile = {
   role: 'Full-Stack Software Engineer',
   email: 'psravanthi0505@gmail.com',
   phone: '+1 (703) 554-0414',
-  // TODO: paste your actual profile URLs here
-  linkedin: 'https://linkedin.com/in/your-handle',
-  scholar: 'https://scholar.google.com/citations?user=your-id',
+  linkedin: 'https://www.linkedin.com/in/sravanthi005/',
+  scholar: 'https://scholar.google.com/scholar?hl=en&as_sdt=0%2C44&q=sravanthi+proddatoori&oq=srava',
   summary:
     'I build production systems that move money, data, and answers — REST APIs and microservices in Java and Spring Boot, responsive React front ends, and AI/RAG features running on AWS. 3+ years shipping software that handles real traffic, real payments, and real users.',
 }

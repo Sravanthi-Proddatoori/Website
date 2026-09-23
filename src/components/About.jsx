@@ -4,7 +4,7 @@ import SectionHeading from './SectionHeading'
 export default function About() {
   return (
     <section id="about" className="mx-auto max-w-6xl px-6 py-28">
-      <SectionHeading eyebrow="$ cat about.md" title="About" />
+      <SectionHeading title="About" />
       <motion.div
         initial={{ opacity: 0, y: 16 }}
         whileInView={{ opacity: 1, y: 0 }}

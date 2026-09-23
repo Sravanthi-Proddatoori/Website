@@ -5,7 +5,7 @@ import { skills } from '../data/resumeData'
 export default function Skills() {
   return (
     <section id="skills" className="mx-auto max-w-6xl px-6 py-28">
-      <SectionHeading eyebrow="$ cat skills.json" title="Skills" />
+      <SectionHeading title="Skills" />
       <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
         {skills.map((group, i) => (
           <motion.div
