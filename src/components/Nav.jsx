@@ -37,7 +37,7 @@ export default function Nav() {
           ))}
         </ul>
         <a
-          href="/resume.pdf"
+          href="/Sravanthi_Proddatoori_Resume.pdf"
           target="_blank"
           rel="noreferrer"
           className="rounded-full border border-amber/40 px-4 py-1.5 font-mono text-sm text-amber transition-colors hover:bg-amber/10"

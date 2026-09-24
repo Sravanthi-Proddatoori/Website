@@ -69,7 +69,7 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-4">
             <a
-              href="/resume.pdf"
+              href="/Sravanthi_Proddatoori_Resume.pdf"
               target="_blank"
               rel="noreferrer"
               className="rounded-full bg-amber px-6 py-3 font-mono text-sm font-medium text-base transition-transform hover:scale-105"
